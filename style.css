@@ -83,3 +83,32 @@ button {
   text-align: center;
   line-height: 1.5rem;
 }
+
+.ratings {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    column-gap: 3rem;
+    padding: 0 8rem;
+  }
+  
+  .rating {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+  }
+  
+  .rating h1 {
+    color: var(--redDestaque);
+    font-size: 3rem;
+  }
+  
+  .rating p {
+    color: var(--gray-500);
+    line-height: 140%;
+    font-size: 90%;
+  }
+  
+  .rating .ratings-title {
+    font-weight: 500;
+    color: #101828;
+  }
