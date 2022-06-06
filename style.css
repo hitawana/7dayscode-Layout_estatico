@@ -136,10 +136,86 @@ button {
   
   .join-us p {
     text-align: center;
-    color: var(--text-color);
+    color: var(--gray-500);
   }
   
   .join-us img {
     margin-top: 2rem;
     width: 80%;
+  }
+
+  .available-jobs {
+    padding-top: 4rem;
+  }
+  
+  .available-jobs span.title-jobs {
+    display: block;
+    max-width: 50%;
+    margin: 0 auto;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    font-weight: bold;
+    color: #101828;
+  }
+  
+  .vaga {
+    border: 1px solid #EAECF0;
+    border-radius: 0.5rem;
+    padding: 1rem;
+    max-width: 50%;
+    margin: 0 auto;
+    margin-bottom: 1rem;
+    color: #101828;
+  }
+  
+  .vaga span.titulo-vaga {
+    font-weight: 500;
+    margin-bottom: 16px;
+  }
+  
+  .vaga .informacoes {
+    margin-top: 1rem;
+    font-size: 90%;
+    color: var(--gray-500);
+    display: flex;
+    gap: 2rem;
+  }
+  
+  .comments {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 80%;
+    margin: 8rem auto;
+    background-color: rgba(195, 25, 25, 0.05);
+    padding: 3rem 2rem;
+  }
+  
+  .comments span {
+    color: var(--redDestaque);
+    font-weight: 500;
+    text-align: center;
+  }
+  
+  .comments img {
+    width: 48px;
+  }
+  
+  .comments h2 {
+    color: var(--redDestaque);
+    font-weight: 500;
+    text-align: center;
+    max-width: 70%;
+    margin: 2rem 0;
+  }
+  
+  .comments span.nome {
+    color: var(--gray-500);
+    margin: 0.5rem 0;
+    font-weight: 400;
+  }
+  
+  .comments span.cargo {
+    color: var(--gray-500);
+    font-weight: 400;
   }
